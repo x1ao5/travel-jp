@@ -1,4 +1,4 @@
-<!-- Travel Planning Website with Introductions and a Schedule Table -->
+<!-- Travel Planning Website with Introductions and an Editable Schedule Table -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -60,6 +60,10 @@
             background-color: #4CAF50;
             color: white;
         }
+        td[contenteditable="true"] {
+            background-color: #f9f9f9;
+            cursor: text;
+        }
     </style>
 </head>
 <body>
@@ -98,16 +102,16 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>2025-02-18</td>
-                    <td>Arrival in Tokyo</td>
+                    <td contenteditable="true">2025-02-18</td>
+                    <td contenteditable="true">Arrival in Tokyo</td>
                 </tr>
                 <tr>
-                    <td>2025-02-19</td>
-                    <td>Explore Shinjuku</td>
+                    <td contenteditable="true">2025-02-19</td>
+                    <td contenteditable="true">Explore Shinjuku</td>
                 </tr>
                 <tr>
-                    <td>2025-02-20</td>
-                    <td>Visit Shibuya</td>
+                    <td contenteditable="true">2025-02-20</td>
+                    <td contenteditable="true">Visit Shibuya</td>
                 </tr>
                 <!-- Add more rows as needed -->
             </tbody>
